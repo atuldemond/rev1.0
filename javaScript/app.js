@@ -148,3 +148,40 @@ console.log("Hello world")
 // for (const nums of num) {
 //     console.log(nums)
 // }
+
+// --------------------------------loops-----------------------------
+// for(let i=0;i<=10;i++){
+// console.log("Hello World")
+// }
+
+// for (let a=1; a<=15;a=a+2){
+//     console.log(a)
+// }
+
+// for (let i=0;i<=0; i++){  infinte lopps
+//     console.log(i)
+// }
+
+// for(let i=0;i<=3;i++){
+//      for (let a = 1;i<=4;a++){
+//         console.log(a);
+//      }
+
+// }
+
+///-------------------------------------while loops--------
+// let i=1
+// while(i<=4){
+
+//     console.log(i)
+//     i++;
+// }
+
+//---------------break;---------keyword----------
+
+let fruit = ['apple','mango','orange','grapes']
+
+for(let i=0;i<fruit.length;i++){
+
+    console.log(i,fruit[i]);
+}
