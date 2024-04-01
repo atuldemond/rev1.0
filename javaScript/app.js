@@ -253,3 +253,19 @@ console.log("Hello world")
 // console.log(cls[0].name)
 // console.log(cls[0].age)
 // console.log(cls[0].add="rajsthan")
+
+// what is function in js---------------------<<<<<<<<<<
+
+// function add(){
+
+//     a=23;
+//     b=23;
+//     return a+b;
+// }
+// console.log(add())
+
+// function sub(a,b){
+// return a-b;
+// }
+
+// console.log(sub(10,5));
