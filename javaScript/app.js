@@ -179,9 +179,77 @@ console.log("Hello world")
 
 //---------------break;---------keyword----------
 
-let fruit = ['apple','mango','orange','grapes']
+// let fruit = ['apple','mango','orange','grapes']
 
-for(let i=0;i<fruit.length;i++){
+// for(let i=0;i<fruit.length;i++){
 
-    console.log(i,fruit[i]);
-}
+//     console.log(i,fruit[i]);
+// }
+
+//-----------------objects -------------
+// const a = {
+
+//     name:"Atul Demond",
+//     age:23,
+//     adress:"sasaram"
+
+// }
+
+// console.log(a.name);
+
+// //changing or update in object in javascript
+// a.name="Mohan Kumar";
+
+// console.log(a.name)  
+// //deleting any key in objects
+// delete a.name;
+// console.log(a.name) 
+
+// nesting objects--------------
+
+// const  cls ={
+
+//     mohan:{
+//         name:"mohan",
+//         age:19,
+//         add:"sasaram"
+
+//     },
+
+//     sohan:{
+//         name:"sohan",
+//         age:25,
+//         add:"patna"
+
+//     }
+
+
+
+// }
+
+// console.log(cls.mohan.age)
+// console.log(cls.sohan.add)
+
+//array of objects ----------------------------->>>>>>>>>>>>>>
+// const cls=[
+
+//     {
+//         name:"sumit",
+//         age:20,
+//         add:"sasaram"
+//     },
+//     {
+//         name:"Atul",
+//         age:23,
+//         add:"patna"
+//     },
+//     {
+//         name:"harsh",
+//         age:19,
+//         add:"lalganj"
+//     }
+// ]
+
+// console.log(cls[0].name)
+// console.log(cls[0].age)
+// console.log(cls[0].add="rajsthan")
