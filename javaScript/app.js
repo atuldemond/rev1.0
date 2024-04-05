@@ -360,3 +360,37 @@ console.log("Hello world")
 // clearInterval(final_2)
 
 //this is with arrow function -----------------
+
+//default parmetert +++++++++++++++++++++++++++++++++++
+
+// function sum (a,b=2){
+//     return a+b
+// }
+
+// console.log(2)
+
+//------------------------------destruturing-- arrays
+
+// let name = ["atul","mohan", "peter", "sohan "];
+
+// let [winner,runnerup, ...oth]=name
+// console.log(winner)
+// console.log(runnerup)
+// console.log(oth)
+
+//destructuring a object ------------------------------- 
+
+const detail ={
+    name:"atul",
+    class:"seven",
+    subject:"cs",
+    password:"abc",
+    username:"atuldemond"
+}
+
+// let username= student.name;
+// let password= student.password;
+
+let {username:user, password:pass}=detail;
+console.log(user);
+console.log(pass);
