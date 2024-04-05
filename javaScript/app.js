@@ -270,25 +270,66 @@ console.log("Hello world")
 
 // console.log(sub(10,5));
 // function expression -------------------------
-const a = function(a,b){
-    return a+b
-}
-console.log(a(20,60))
+// const a = function(a,b){
+//     return a+b
+// }
+// console.log(a(20,60))
 
 
-// -----------------------------------------------------
+// // -----------------------------------------------------
 
-function greting (fun,n){
-  for(let i = 0;i<=n;i++){
+// function greting (fun,n){
+//   for(let i = 0;i<=n;i++){
 
-    fun();
-  }
+//     fun();
+//   }
 
-}
+// }
 
-let boy = function fun(){
-    console.log("hello world")
-}
+// let boy = function fun(){
+//     console.log("hello world")
+// }
 
-greting(boy,20);
+// greting(boy,20);
 
+// ///////////////--------------------
+// // fatcory function is not impotant so ----------
+
+
+// //-----------this key word
+
+// let objj={
+
+//     name:"atul",
+//     age:23,
+//     out(){
+//         console.log(`${this.age} ${this.name}`)
+//     }
+
+// }
+
+// ---------------------------------------try and catch -------
+//  let a = 25;
+
+//  try {
+//     console.log("Your not get any errt")
+//     console.log(sss)
+//  } catch (error) {
+//     console.log(error)
+//  }
+
+// // --------------------------arrow function ----------------------------
+
+
+// let a = ()=>{
+//     console.log("Hello world this is arrow funtion ")
+
+// }
+
+// console.log(a())
+
+// let b = (fi,f2)=>{
+//    return fi+f2;
+// }
+
+// console.log(b(2,4))
