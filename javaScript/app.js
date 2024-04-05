@@ -380,17 +380,17 @@ console.log("Hello world")
 
 //destructuring a object ------------------------------- 
 
-const detail ={
-    name:"atul",
-    class:"seven",
-    subject:"cs",
-    password:"abc",
-    username:"atuldemond"
-}
+// const detail ={
+//     name:"atul",
+//     class:"seven",
+//     subject:"cs",
+//     password:"abc",
+//     username:"atuldemond"
+// }
 
-// let username= student.name;
-// let password= student.password;
+// // let username= student.name;
+// // let password= student.password;
 
-let {username:user, password:pass}=detail;
-console.log(user);
-console.log(pass);
+// let {username:user, password:pass}=detail;
+// console.log(user);
+// console.log(pass);
