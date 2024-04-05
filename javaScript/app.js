@@ -333,3 +333,30 @@ console.log("Hello world")
 // }
 
 // console.log(b(2,4))
+
+//implicit retun function 
+
+// let wow = (a,b) => { return a+b};
+
+// // // if you want to remove return keyword then use ()
+// // console.log(wow(1,2))
+// // console.log("mewooooooooooooooo")
+
+
+
+//----------------------settimeout function --------------
+
+
+// let final = setTimeout(()=>{
+
+//     console.log("workig after 5 sec")
+// },5000)
+
+// let final_2 = setInterval(() => {
+//     console.log("this is set interval fuction ")
+    
+// },2000);
+
+// clearInterval(final_2)
+
+//this is with arrow function -----------------
