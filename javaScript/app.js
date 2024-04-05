@@ -269,3 +269,26 @@ console.log("Hello world")
 // }
 
 // console.log(sub(10,5));
+// function expression -------------------------
+const a = function(a,b){
+    return a+b
+}
+console.log(a(20,60))
+
+
+// -----------------------------------------------------
+
+function greting (fun,n){
+  for(let i = 0;i<=n;i++){
+
+    fun();
+  }
+
+}
+
+let boy = function fun(){
+    console.log("hello world")
+}
+
+greting(boy,20);
+
