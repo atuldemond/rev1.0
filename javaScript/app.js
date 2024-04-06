@@ -394,3 +394,23 @@ console.log("Hello world")
 // let {username:user, password:pass}=detail;
 // console.log(user);
 // console.log(pass);
+
+
+
+// DDDDDDDDDDDDDD--OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO--MMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+
+let btn1 = document.querySelector("#btn")
+let btn2 = document.querySelector(".btn2")
+
+btn1.addEventListener("click", ()=>{
+alert("This is event Listner")
+
+})
+
+btn2.addEventListener("click",()=>{
+
+    let value_1 = prompt("Enter Your Number");
+    console.log(value_1)
+})
