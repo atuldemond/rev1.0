@@ -401,16 +401,25 @@ console.log("Hello world")
 
 
 
-let btn1 = document.querySelector("#btn")
-let btn2 = document.querySelector(".btn2")
+// let btn1 = document.querySelector("#btn")
+// let btn2 = document.querySelector(".btn2")
 
-btn1.addEventListener("click", ()=>{
-alert("This is event Listner")
+// btn1.addEventListener("click", ()=>{
+// alert("This is event Listner")
 
+// })
+
+// btn2.addEventListener("click",()=>{
+
+//     let value_1 = prompt("Enter Your Number");
+//     console.log(value_1)
+// })
+
+// -------------------------this is addEventListener----------
+let btn = document.querySelector("#btn");
+
+btn.addEventListener("click",function(){
+    console.log("hiii")
+     this.style.backgroundColor= "blue";
 })
 
-btn2.addEventListener("click",()=>{
-
-    let value_1 = prompt("Enter Your Number");
-    console.log(value_1)
-})
